@@ -16,11 +16,11 @@ export const Right = () => {
         height:'73vh',
         borderRadius:2,
         overflow:'auto',
-        backgroundColor:'#1A1E28',
-        boxShadow:10
+        backgroundColor:'#303D3A',
+        // boxShadow:10
     }}>
         <Box sx={{
-            p:2,
+            // p:2,
             
         }}>
             <Routes>

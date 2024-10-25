@@ -4,11 +4,12 @@ import React from 'react'
 export const Research = () => {
   return (
     <Box sx={{
-        border: '1px solid blue',
+        // border: '1px solid blue',
         width:"100%",
         height:'400px',
-        bgcolor:'lightblue',
-        borderRadius:2
+        bgcolor:'#423037',
+        borderRadius:2,
+        boxShadow:10
     }}></Box>
   )
 }

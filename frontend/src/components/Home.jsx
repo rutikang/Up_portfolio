@@ -5,11 +5,12 @@ export const Home = () => {
   return (
     <Box>
         <Box sx={{
-        border: '1px solid blue',
+        // border: '1px solid blue',
         width:"100%",
         height:'400px',
-        bgcolor:'tomato',
-        borderRadius:2
+        bgcolor:'#30423c',
+        borderRadius:2,
+        boxShadow:10
     }}></Box>
     </Box>
   )

@@ -23,6 +23,11 @@ export const Projects = () => {
           title: 'Simple React apps',
           author: 'Simple apps created with react',
         },
+        {
+            img: 'https://i.pinimg.com/1200x/0e/85/f0/0e85f08884f68a1e515366cc45a9c92e.jpg',
+            title: 'Simple React apps',
+            author: 'Simple apps created with react',
+          },
     //    https://images.pexels.com/photos/4021262/pexels-photo-4021262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
         
     ];
@@ -32,10 +37,11 @@ export const Projects = () => {
     <Box sx={{
         // border: '1px solid gray',
         width:"100%",
-        height:'400px',
-        bgcolor:'#354230',
+        height:'460px',
+        bgcolor:'#1A1E28',
         borderRadius:2,
         overflowY: 'auto',
+        boxShadow:10
         
         
     }}>
@@ -61,7 +67,7 @@ export const Projects = () => {
             alt={item.title}
             loading="lazy"
             style={{
-                width:"331px",
+                width:"342px",
                 height:"300px",
                 borderRadius:5
             }}

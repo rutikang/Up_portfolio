@@ -4,11 +4,12 @@ import React from 'react'
 export const Experience = () => {
   return (
     <Box sx={{
-        border: '1px solid blue',
+        // border: '1px solid blue',
         width:"100%",
         height:'400px',
-        bgcolor:'yellow',
-        borderRadius:2
+        bgcolor:'#434524',
+        borderRadius:2,
+        boxShadow:10
     }}></Box>
   )
 }
