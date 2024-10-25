@@ -25,15 +25,17 @@ export const Left = () => {
         <MenuList sx={{
            
         }}>
+         <Divider />
 
         <MenuItem  component={Link} to="/" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
             <Home />
           </ListItemIcon>
           <ListItemText>Home</ListItemText>
-          
+                  <Divider sx={{ bgcolor: 'gray' }}/>
+
         </MenuItem>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
         <MenuItem component={Link} to="/projects" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
            <VideoLabel/>
@@ -41,7 +43,7 @@ export const Left = () => {
           <ListItemText>Projects</ListItemText>
           
         </MenuItem>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
         <MenuItem component={Link} to="/research" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
           <LibraryBooks/>
@@ -49,7 +51,7 @@ export const Left = () => {
           <ListItemText>Research</ListItemText>
           
         </MenuItem>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
 
         <MenuItem  component={Link} to="/experience" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
@@ -58,7 +60,7 @@ export const Left = () => {
           <ListItemText>Experience</ListItemText>
           
         </MenuItem>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
         <MenuItem  component={Link} to="/contact" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
             <ContactMail/>
@@ -66,7 +68,7 @@ export const Left = () => {
           <ListItemText>Contact </ListItemText>
           
         </MenuItem>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
         <MenuItem  component={Link} to="/other" activeClassName="active">
           <ListItemIcon sx={{color:'white'}}>
             <Send />
@@ -74,7 +76,7 @@ export const Left = () => {
           <ListItemText>Other</ListItemText>
           
         </MenuItem>
-
+        <Divider />
       </MenuList>
 
       </Box>

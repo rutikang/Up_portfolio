@@ -52,7 +52,7 @@ export const Projects = () => {
             
         }}>
         <Typography>Projects</Typography>
-        <Divider />
+        <Divider sx={{ bgcolor: 'gray' }}/>
 
 {/* ------------------------------------------------------------------- */}
         
