@@ -14,6 +14,8 @@ import django from '../images/django.svg'
 import mysql from '../images/sql-database-generic.svg'
 import doc from '../images/docker.svg'
 import kub from '../images/kubernetes.svg'
+import postman from '../images/postman.png'
+
 
 import grafana from '../images/grafana.svg'
 import prom from '../images/prometheus.svg'
@@ -160,6 +162,12 @@ export const Home = () => {
       <img src={kub} style={{ width: '40px', height: '40px' }}/>
       <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/>
       <Typography sx={{color:'white'}}>Kubernetes</Typography>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/>
+
+
+      <img src={postman} style={{ width: '40px', height: '40px' }}/>
+      <Divider orientation="vertical" variant="middle" flexItem  sx={{bgcolor:'white', ml:1,mr:1}}/>
+      <Typography sx={{color:'white'}}>Postman</Typography>
 
 
 
